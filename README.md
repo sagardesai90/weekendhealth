@@ -45,6 +45,6 @@ Space:
 
 1 - Storing letter counts: The space required to store the letter counts for the input string and for each word is O(1) in terms of the number of unique letters.
 
-2 - Result Array: The space required for the result array depends on the number of words that can be formed and is at most O(m), where O(m) is the number of words in the dictionary (in the worst case, every word in the dictionary can be formed and needs to be stored).
+2 - Result Array: The space required for the result array depends on the number of words that can be formed and is at most O(n), where n is the number of words in the dictionary (in the worst case, every word in the dictionary can be formed and needs to be stored).
 
-Therefore, the overall space complexity is O(m), as the space to store letter counts is constant and does not depend on the input size, while the space for the output array is the most significant factor that scales with the size of the input dictionary.
+Therefore, the overall space complexity is O(n), as the space to store letter counts is constant and does not depend on the input size, while the space for the output array is the most significant factor that scales with the size of the input dictionary.
